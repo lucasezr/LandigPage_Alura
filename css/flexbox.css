@@ -7,3 +7,11 @@
 .headerPrincipal-nav {
     display: flex;
 }
+
+.rodapePrincipal-navMap-list {
+    display: flex;
+    flex-direction: column;
+    /* por cada 250 pixeles se va a llenar y va a llegar al tope de la primer columna por lo que crearia otra columna al lado */
+    height: 250px;
+    flex-wrap: wrap;
+}
