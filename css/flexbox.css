@@ -33,7 +33,7 @@
     display: flex;
     flex-direction: column;
     /* por cada 250 pixeles se va a llenar y va a llegar al tope de la primer columna por lo que crearia otra columna al lado */
-    height: 250px;
+    height: 253px;
     flex-wrap: wrap;
 }
 
@@ -52,5 +52,80 @@
 
 .contenidoPrincipal-cursos-link {
     display: flex;
-    width: 20%;
+    width: 23%;
+}
+
+.videoSobre .container {
+    display: flex;
+}
+
+ .videoSobre-sobre {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.videoSobre-video{
+    flex-grow: 2;
+    flex-shrink: 2;
+}
+
+
+.videoSobre-sobre-list {
+    flex-grow: 1;
+} 
+
+/* Empieza la configuracion RESPONSIVE */
+
+@media (max-width:768px){
+.headerPrincipal .container{
+    /* Para que deje de ser uno al lado del otro y pase a tener un formato en columna */
+    flex-direction: column;
+    align-items: initial;
+    text-align: center;
+}
+
+.headerPrincipal-nav {
+    flex-direction: column;
+}
+
+.contenidoPrincipal-cursos {
+    flex-direction: column;
+}
+
+.contenidoPrincipal-cursos-link {
+    width: 100%;
+}
+
+.rodapePrincipal-navMap-list{ 
+    height: auto;
+    flex-wrap: nowrap;
+}
+
+.rodapePrincipal-patrocinadores .container {
+    flex-direction: column;
+}
+
+.rodapePrincipal-contatoForm {
+    width: 100%;
+}
+
+.rodapePrincipal-patrocinadores-list {
+    align-items: center;
+    width: 100%;
+    margin: 0;
+}
+
+.rodapePrincipal-contatoForm-fieldset {
+    justify-content: center;
+}
+
+.headerPrincipal-nav-link-app{
+    /* Por defecto todos los flex items que estan dentro de un container flex tienen un orden 0, lo que hace este es posicionarse primero que ellos para mostrarse en ese orden */
+    order: -1;
+}
+
+.videoSobre .container {
+    flex-direction: column;
+}
 }
