@@ -7,4 +7,7 @@
 <img src="https://res.cloudinary.com/dr1n4zzvd/image/upload/v1668353333/FlexboxLandingAntes2_t4ugjj.png" width = 70%/>
 </br>
 <strong> <p> Final: </p> </strong>
-<img src="" />
+<img src="https://res.cloudinary.com/dr1n4zzvd/image/upload/v1668451713/FlexboxLandingDespues_fst1un.png"/>
+<hr>
+<img src="https://res.cloudinary.com/dr1n4zzvd/image/upload/v1668451725/FlexboxLandingDespues2_jdhqvf.png"/>
+
